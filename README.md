@@ -46,3 +46,56 @@ Examples:
 - Consider explaning the solution and why certain things are included and others are left out.
 - Be written either in Swift or Kotlin, preferably in the latest stable version of the language.
 - If possible, use the latest stable version (no Betas) of Xcode or Android Studio.
+
+# Resolution
+
+For the resolution of this challenge, the latest technologies used in the market were implemented
+
+- Environment Android 
+  - Kotlin
+
+- Data
+  - Room
+  - Flows
+  - Retrofit
+
+- Design Patterns  
+  - MVVM (Viemodels, StateFlow)
+  - Clean Architecture (UI - Domain - Data)
+
+- UI
+  - Compose (Screens, UI Components, UI State)
+
+- Dependency injection
+  - Dagger Hilt
+  
+- Coil (To get image from network)
+
+- Unit tests (Usescases)
+
+# Screenshots:
+Product List
+<br><br>
+<img src="https://user-images.githubusercontent.com/25715124/216851519-874638e5-2399-4102-a835-729630c2c031.png" width="50%" height="50%">
+<br><br>
+
+Add Product
+<br><br>
+<img src="https://user-images.githubusercontent.com/25715124/216851584-214afc16-8ca1-4f40-b2c8-59b42babffca.png" width="50%" height="50%">
+<br><br>
+
+Current Order
+<br><br>
+<img src="https://user-images.githubusercontent.com/25715124/216851603-24b16878-87cf-4887-9e70-16dbf3a04b08.png" width="50%" height="50%">
+<br><br>
+
+# Considerations:
+
+ - I used another endpoint with the same structure as the indicated endpoint to add more information (I added a image field).
+ - The discount is calculated when the products are added into the order, each product can be added as many times as you want and in the Current Order Screen they are grouped by product and the discount is recalculated.
+ - Pressing BUY button closes the order and user can create another one by adding new products from the list.
+ - A couple of test cases were created to test the basics features, but many more could be created.
+ - The types of discounts with their prices are obtained and processed in the specific UseCase (they could be obtained from an endpoint or database but is out of this scope)
+
+
+Mauricio Kfouri

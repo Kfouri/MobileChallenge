@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CabifyChallenge</string>
+    <string name="products_list">Products List</string>
+    <string name="product_added_correctly">Product added correctly</string>
+    <string name="price">Price: $%1$s</string>
+    <string name="amount">Amount</string>
+    <string name="total">Total: $%1$s</string>
+    <string name="add_to_shopping_cart">Add to Shopping Cart</string>
+
+    <string name="current_order">Current Order</string>
+    <string name="current_order_buy">Buy</string>
+    <string name="current_order_empty_cart">Empty Cart</string>
+    <string name="current_order_product_name">Product Name</string>
+    <string name="current_order_amount">Amount</string>
+    <string name="current_order_price">Price</string>
+    <string name="current_order_total">Total</string>
+</resources>
